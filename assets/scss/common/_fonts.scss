@@ -1,0 +1,32 @@
+// Aa Fonts
+
+@use 'sass:map';
+@use "../common/tokens";
+@use "../common/functions";
+
+// - Defaults - //
+
+$defaultFontFamily: map.get(
+  tokens.$spacefoldTokens,
+  fonts,
+  mobile,
+  copy,
+  copy4,
+  fontName
+);
+
+// Defaults from registered styles
+$defaultFontSize: functions.rem(
+  map.get(tokens.$spacefoldTokens, fonts, mobile, copy, copy4, fontSize)
+);
+$defaultLineHeight: functions.rem(
+  map.get(tokens.$spacefoldTokens, fonts, mobile, copy, copy4, lineHeight)
+);
+$defaultFontWeight: map.get(
+  tokens.$spacefoldTokens,
+  fonts,
+  mobile,
+  copy,
+  copy4,
+  fontWeight
+);

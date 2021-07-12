@@ -1,0 +1,6 @@
+@use 'sass:string';
+
+// A function that I need to use in my vue components.
+@function join($str1, $str2) {
+  @return string.join($str1, $str2);
+}

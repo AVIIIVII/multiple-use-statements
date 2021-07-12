@@ -1,0 +1,46 @@
+// Sequel 100 Wide
+@font-face {
+  font-family: 'Sequel 100 Wide';
+  src: url('~assets/fonts/Sequel-100-Wide/Sequel-65.woff2') format('woff2'),
+    url('~assets/fonts/Sequel-100-Wide/Sequel-65.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  // Latin glyphs
+  unicode-range: U+0000-007F, U+201C, U+201D;
+}
+
+// Axiforma
+@font-face {
+  font-family: 'Axiforma';
+  src: url('~assets/fonts/Axiforma/Axiforma-Regular.woff2') format('woff2'),
+    url('~assets/fonts/Axiforma/Axiforma-Regular.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  // Latin glyphs
+  unicode-range: U+0000-007F, U+201C, U+201D;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('~assets/fonts/Axiforma/Axiforma-Regular-Italic.woff2')
+      format('woff2'),
+    url('~assets/fonts/Axiforma/Axiforma-Regular-Italic.woff') format('woff');
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  // Latin glyphs
+  unicode-range: U+0000-007F, U+201C, U+201D;
+}
+
+@font-face {
+  font-family: 'Axiforma';
+  src: url('~assets/fonts/Axiforma/Axiforma-Extrabold.woff2') format('woff2'),
+    url('~assets/fonts/Axiforma/Axiforma-Extrabold.woff') format('woff');
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+  // Latin glyphs
+  unicode-range: U+0000-007F, U+201C, U+201D;
+}

@@ -1,0 +1,88 @@
+@use "sass:map";
+
+@use "../common/tokens";
+@use "../common/functions";
+@use "../common/fonts";
+
+// Mouse selection
+::-moz-selection {
+  $rgba: functions.extractRgba(
+    map.get(tokens.$spacefoldTokens, colors, blackFlag, shade1)
+  );
+  background: rgba(
+    map.get($rgba, r),
+    map.get($rgba, g),
+    map.get($rgba, b),
+    0.99
+  );
+  color: functions.interpolation(
+    map.get(tokens.$spacefoldTokens, colors, whiteHat, shade1)
+  );
+  text-shadow: none;
+  opacity: 0.99;
+}
+
+::selection {
+  $rgba: functions.extractRgba(
+    map.get(tokens.$spacefoldTokens, colors, blackFlag, shade1)
+  );
+  background: rgba(
+    map.get($rgba, r),
+    map.get($rgba, g),
+    map.get($rgba, b),
+    0.99
+  );
+  color: functions.interpolation(
+    map.get(tokens.$spacefoldTokens, colors, whiteHat, shade1)
+  );
+  text-shadow: none;
+}
+
+html {
+  height: 100%;
+  background: functions.interpolation(
+    map.get(tokens.$spacefoldTokens, colors, whiteHat, shade1)
+  );
+  &.no-scroll {
+    position: fixed;
+    left: 0;
+    right: 0;
+  }
+}
+
+body {
+  height: 100%;
+  color: functions.interpolation(
+    map.get(tokens.$spacefoldTokens, colors, blackFlag, shade1)
+  );
+  font: #{fonts.$defaultFontSize} / #{fonts.$defaultLineHeight}
+    fonts.$defaultFontFamily;
+  font-kerning: normal;
+  font-weight: fonts.$defaultFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+// Defaults
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Buttons and links
+a,
+button {
+  outline: 0;
+}
+
+a {
+  color: inherit;
+}

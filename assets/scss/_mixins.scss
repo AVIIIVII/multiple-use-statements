@@ -1,0 +1,8 @@
+@use './functions';
+
+// A mixin that I need to use in my vue components.
+@mixin test {
+  & {
+    font-family: functions.join('Helve', 'tica');
+  }
+}

@@ -1,0 +1,477 @@
+$spacefoldTokens: (
+  colors: (
+    state: (
+      error: 'rgba(244, 3, 27, 1)',
+      success: 'rgba(6, 168, 51, 1)'
+    ),
+    redDoom: (
+      shade1: 'rgba(244, 3, 27, 1)',
+      shade2: 'rgba(217, 11, 31, 1)',
+      shade3: 'rgba(191, 10, 29, 1)',
+      shade4: 'rgba(159, 0, 17, 1)'
+    ),
+    blackFlag: (
+      shade1: 'rgba(17, 16, 17, 1)',
+      shade2: 'rgba(31, 31, 31, 1)'
+    ),
+    whiteHat: (
+      shade1: 'rgba(255, 255, 255, 1)',
+      shade2: 'rgba(247, 247, 247, 1)',
+      shade3: 'rgba(232, 232, 232, 1)',
+      shade4: 'rgba(202, 202, 202, 1)',
+      shade5: 'rgba(175, 175, 175, 1)',
+      shade6: 'rgba(144, 144, 144, 1)'
+    )
+  ),
+  fonts: (
+    desktop: (
+      eyecatch: (
+        eyecatch1: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 168,
+          letterSpacing: -3.36,
+          lineHeight: 154
+        ),
+        eyecatch2: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 124,
+          letterSpacing: -2.48,
+          lineHeight: 120
+        )
+      ),
+      title: (
+        h1: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 72,
+          letterSpacing: -1.44,
+          lineHeight: 72
+        ),
+        h2: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 48,
+          letterSpacing: -0.96,
+          lineHeight: 52
+        ),
+        h3: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 36,
+          letterSpacing: -0.72,
+          lineHeight: 42
+        ),
+        h4: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 36,
+          letterSpacing: -0.72,
+          lineHeight: 42
+        ),
+        h5: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 24,
+          letterSpacing: -0.48,
+          lineHeight: 28
+        ),
+        h6: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 16,
+          letterSpacing: -0.32,
+          lineHeight: 20
+        )
+      ),
+      copy: (
+        copy1: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 48,
+          letterSpacing: 0,
+          lineHeight: 72
+        ),
+        copy1Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 48,
+          letterSpacing: 0,
+          lineHeight: 68
+        ),
+        copy2: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 36,
+          letterSpacing: 0,
+          lineHeight: 46
+        ),
+        copy2Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 36,
+          letterSpacing: 0,
+          lineHeight: 46
+        ),
+        copy3: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 24,
+          letterSpacing: 0,
+          lineHeight: 36
+        ),
+        copy3Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 24,
+          letterSpacing: 0,
+          lineHeight: 34
+        ),
+        copy4: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 16,
+          letterSpacing: 0,
+          lineHeight: 26
+        ),
+        copy4Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 16,
+          letterSpacing: 0,
+          lineHeight: 26
+        ),
+        copyBlog: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 18,
+          letterSpacing: 0,
+          lineHeight: 28
+        ),
+        copyBlogBold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 18,
+          letterSpacing: 0,
+          lineHeight: 28
+        )
+      ),
+      quote: (
+        bigQuote: (
+          fontName: 'Axiforma',
+          italic: true,
+          fontWeight: 400,
+          fontSize: 48,
+          letterSpacing: 0,
+          lineHeight: 62
+        ),
+        simpleQuote: (
+          fontName: 'Axiforma',
+          italic: true,
+          fontWeight: 400,
+          fontSize: 24,
+          letterSpacing: 0,
+          lineHeight: 34
+        )
+      ),
+      client: (
+        clientName: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 18,
+          letterSpacing: -0.36,
+          lineHeight: 18
+        )
+      ),
+      menu: (
+        menuItem: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          textCase: 'UPPER',
+          fontSize: 16,
+          letterSpacing: 0,
+          lineHeight: 16
+        )
+      ),
+      button: (
+        supernova: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 48,
+          letterSpacing: -0.96,
+          lineHeight: 52
+        ),
+        primary: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 18,
+          letterSpacing: -0.36,
+          lineHeight: 20
+        ),
+        secondary: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 16,
+          letterSpacing: 0,
+          lineHeight: 26
+        )
+      )
+    ),
+    mobile: (
+      eyecatch: (
+        eyecatch1: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 42,
+          letterSpacing: -0.84,
+          lineHeight: 40
+        ),
+        eyecatch2: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 28,
+          letterSpacing: -0.56,
+          lineHeight: 26
+        )
+      ),
+      title: (
+        h1: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 22,
+          letterSpacing: -0.44,
+          lineHeight: 24
+        ),
+        h2: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 24,
+          letterSpacing: -0.48,
+          lineHeight: 28
+        ),
+        h3: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 18,
+          letterSpacing: -0.36,
+          lineHeight: 20
+        ),
+        h4: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 24,
+          letterSpacing: -0.48,
+          lineHeight: 26
+        ),
+        h5: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 18,
+          letterSpacing: -0.36,
+          lineHeight: 26
+        ),
+        h6: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 14,
+          letterSpacing: -0.28,
+          lineHeight: 18
+        )
+      ),
+      copy: (
+        copy1: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 20,
+          letterSpacing: 0,
+          lineHeight: 26
+        ),
+        copy1Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 20,
+          letterSpacing: 0,
+          lineHeight: 26
+        ),
+        copy2: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 24,
+          letterSpacing: 0,
+          lineHeight: 32
+        ),
+        copy2Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 24,
+          letterSpacing: 0,
+          lineHeight: 32
+        ),
+        copy3: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        ),
+        copy3Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        ),
+        copy4: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        ),
+        copy4Bold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        ),
+        copyBlog: (
+          fontName: 'Axiforma',
+          fontWeight: 400,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        ),
+        copyBlogBold: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        )
+      ),
+      quote: (
+        bigQuote: (
+          fontName: 'Axiforma',
+          italic: true,
+          fontWeight: 400,
+          fontSize: 18,
+          letterSpacing: 0,
+          lineHeight: 25
+        ),
+        simpleQuote: (
+          fontName: 'Axiforma',
+          italic: true,
+          fontWeight: 400,
+          fontSize: 14,
+          letterSpacing: 0,
+          lineHeight: 22
+        )
+      ),
+      client: (
+        clientName: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 18,
+          letterSpacing: -0.36,
+          lineHeight: 18
+        )
+      ),
+      menu: (
+        menuItem: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          textCase: 'UPPER',
+          fontSize: 16,
+          letterSpacing: 0,
+          lineHeight: 16
+        )
+      ),
+      button: (
+        supernova: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 24,
+          letterSpacing: -0.48,
+          lineHeight: 28
+        ),
+        primary: (
+          fontName: 'Sequel 100 Wide',
+          fontWeight: 400,
+          textCase: 'UPPER',
+          fontSize: 18,
+          letterSpacing: -0.36,
+          lineHeight: 20
+        ),
+        secondary: (
+          fontName: 'Axiforma',
+          fontWeight: 800,
+          fontSize: 16,
+          letterSpacing: 0,
+          lineHeight: 26
+        )
+      )
+    )
+  ),
+  grids: (
+    website: (
+      desktop: (
+        columns: ((
+          pattern: 'COLUMNS',
+          sectionSize: 80,
+          alignment: 'CENTER',
+          count: 16,
+          gutterSize: 40,
+          offset: 0
+        ), (
+          pattern: 'COLUMNS',
+          sectionSize: 120,
+          alignment: 'CENTER',
+          count: 16,
+          gutterSize: 0,
+          offset: 0
+        ), (
+          pattern: 'ROWS',
+          sectionSize: 1,
+          alignment: 'MIN',
+          count: 0,
+          gutterSize: 0,
+          offset: 1080
+        ))
+      ),
+      mobile: (
+        columns: ((
+          pattern: 'COLUMNS',
+          sectionSize: 280,
+          alignment: 'STRETCH',
+          count: 1,
+          gutterSize: 0,
+          offset: 20
+        ), (
+          pattern: 'ROWS',
+          sectionSize: 1,
+          alignment: 'MIN',
+          count: 0,
+          gutterSize: 0,
+          offset: 568
+        ))
+      )
+    )
+  )
+);
